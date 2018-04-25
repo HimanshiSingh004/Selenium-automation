@@ -12,7 +12,7 @@ browser = webdriver.Chrome()
 browser.get('https://www.twitter.com')
 login = browser.find_elements_by_xpath('//*[@id="doc"]/div/div[1]/div[1]/div[2]/div/a')
 login[0].click()
-print("Loggin in Twitter")
+print("Loggin in Twitter.")
  
 user = browser.find_elements_by_xpath('//*[@id="page-container"]/div/div[1]/form/fieldset/div[1]/input')
 with open('username.txt', 'r') as myfile:  
