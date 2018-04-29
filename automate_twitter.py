@@ -5,7 +5,7 @@ Created on Thu Apr 19 14:31:58 2018
 @author: Himanshi
 """
 from selenium import webdriver     
-import time  
+import time  .
 from selenium.webdriver.common.keys import Keys  
 
 browser = webdriver.Chrome() 
