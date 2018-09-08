@@ -2,7 +2,7 @@
 """
 Created on Thu Apr 19 14:31:58 2018
 
-@author: Himanshi
+@author: Himanshi 
 """
 from selenium import webdriver     
 import time  
@@ -27,7 +27,7 @@ LOG = browser.find_elements_by_xpath('//*[@id="page-container"]/div/div[1]/form/
 LOG[0].click()
 print("Login Sucessfull")
 
-time.sleep(3)
+time.sleep(4)
 elem = browser.find_element_by_xpath('//*[@id="tweet-box-home-timeline"]')
 elem.click()
 elem.clear()
