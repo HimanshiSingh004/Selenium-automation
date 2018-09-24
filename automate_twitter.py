@@ -2,7 +2,7 @@
 """
 Created on Thu Apr 19 14:31:58 2018
 
-@author: Himanshi 
+@author: dell
 """
 from selenium import webdriver     
 import time  
